@@ -1,4 +1,4 @@
-n = int(input("Enter the no of fibonacci nos to generate"))
+n = int(input("Enter the no of fibonacci nos to generate "))
 a = 0
 b = 1
 print(a)
@@ -8,3 +8,14 @@ for i in range(2,n):
      a=b
      b=c
      print(c)
+
+     
+'''
+OUTPUT
+Enter the no of fibonacci nos to generate 6
+0
+1
+1
+2
+3
+5
