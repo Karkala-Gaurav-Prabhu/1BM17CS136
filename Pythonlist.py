@@ -8,3 +8,11 @@ for i in range (0,len(a)):
 for i in range (0,len(b)):
  print(b[i])
  
+'''
+OUTPUT:
+2
+4
+6
+8
+10
+'''
