@@ -1,18 +1,10 @@
-lst = []
-n = int(input("Enter number of elements : "))
-for i in range(0, n): 
-    ele = int(input()) 
+a=[1,2,3,4,5,6,7,8,9,10]
+b=[]
+
+for i in range (0,len(a)):
+ if (a[i]%2) == 0:
+  b.append(a[i])
   
-    lst.append(ele) 
-      
-print(lst)
-
-evenlst = []
-for i in range(0, len(lst)):
-    if lst[i]%2 == 0:
-     
-     evenlst.append(lst[i])
-
-
-print("Even number list is:")
-print(evenlst)
+for i in range (0,len(b)):
+ print(b[i])
+ 
