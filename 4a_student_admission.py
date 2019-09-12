@@ -7,10 +7,10 @@ class student:
 
     def validate_age(self):
         if self.age <= 0:
-            print("Age cannot be less than 0.")
+            print("\nAge cannot be less than 0.")
             return False
         else:
-            print("Age succesfully Validated.")
+            print("\nAge succesfully Validated.")
             return True
 
     def validate_marks(self):
@@ -37,7 +37,7 @@ class student:
         self.stud_id = stud_id
 
     def getter(self):
-        print("Student ID: ", self.stud_id)
+        print("\nStudent ID: ", self.stud_id)
         print("Age: ", self.age)
         print("Marks: ", self.marks)
 
