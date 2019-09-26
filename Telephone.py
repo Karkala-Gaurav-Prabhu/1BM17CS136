@@ -19,7 +19,7 @@ class Util:
 
         for i in list_of_call_string:
             phone_no, called_no, call_duration, call_type = map(str, i.split(","))
-            #self.list_of_call_objects.append(CallDetail(phone_no, called_no, call_duration, call_type))
+            self.list_of_call_objects.append([phone_no, called_no, call_duration, call_type])
             call = CallDetail(phone_no, called_no, call_duration, call_type)
             call.details()
 
