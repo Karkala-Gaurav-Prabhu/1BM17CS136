@@ -27,3 +27,9 @@ string = input("Enter A String Of Parantheses")
 
 val = Validate(string)
 val.isvalid()
+
+'''
+Output:
+Enter A String Of Parantheses: {()}
+Valid
+'''
